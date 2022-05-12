@@ -2706,10 +2706,12 @@ input, select, textarea {
 
 	#header {
 		background-attachment: scroll,							scroll,					fixed;
-		background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/header.jpg");
+		background-image: url("images/top-3200.svg"), url("../../images/code-image.jpg"), url("../../images/header.jpg"); 
+		/* url("images/overlay.png"); */
 		background-position: bottom center,					top left,				center center;
-		background-repeat: repeat-x,						repeat,					no-repeat;
-		background-size: 3200px 460px,					auto,					cover;
+		background-repeat: no-repeat;
+		/* repeat-x,						repeat,					no-repeat; */
+		background-size: 3200px 460px,					cover,					cover;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
@@ -2750,8 +2752,17 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
+		#header #header-content {
+			background-color: rgba(78,185,128,.90) ;
+			/* rgba(0,0,0,0.8); */
+			padding: 20px;
+		}
+
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #ffffff;
+			color: black;
+			 /* #4eb980; */
+			opacity:1;
+			/* #ffffff; */
 		}
 
 		#header input[type="submit"],
@@ -2775,7 +2786,10 @@ input, select, textarea {
 			text-align: center;
 			width: 2.35em;
 		}
-
+		#header .logo.fa-laptop-code-o:before {
+			left: -0.075em;
+			position: relative;
+		}
 			#header .logo.fa-paper-plane-o:before {
 				left: -0.075em;
 				position: relative;
@@ -2791,7 +2805,7 @@ input, select, textarea {
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
-
+		
 /* Footer */
 
 	#footer {
@@ -3022,8 +3036,10 @@ input, select, textarea {
 
 			#header {
 				background-attachment: scroll,							scroll,							scroll;
-				background-image: url("images/top-1600.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1600px 230px,					auto,							cover;
+				background-image: url("images/top-1600.svg"), url("../../images/code-image.jpg"), url("../../images/header.jpg"); 
+				/* url("images/overlay.png"), url("../../images/header.jpg"); */
+				/* filter:grayscale(100%); */
+				background-size: 1600px 230px,					cover,							cover;
 				padding: 6em 0 12em 0;
 			}
 
@@ -3174,8 +3190,8 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				background-image: url("images/top-1280.svg"), url("images/overlay.png"), url("../../images/header.jpg");
-				background-size: 1280px 184px,						auto,							cover;
+				background-image: url("images/top-1280.svg"), url("../../images/code-image.jpg"), url("../../images/header.jpg");
+				background-size: 1280px 184px,						cover,							cover;
 				padding: 3em 0 7em 0;
 			}
 
