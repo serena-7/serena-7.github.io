@@ -2702,6 +2702,21 @@ input, select, textarea {
 			padding-top: 0;
 		}
 
+
+.major > #about {
+	position:absolute;
+}
+
+#lhs {
+	position:absolute;
+}
+
+#headshot {
+	/* position:relative; */
+	height:100px;
+	width:auto;
+}
+
 /* Header */
 
 	#header {
@@ -2764,7 +2779,11 @@ input, select, textarea {
 			opacity:1;
 			/* #ffffff; */
 		}
+		#header h1 {
+			-webkit-text-stroke-width: 1.5px;
+			-webkit-text-stroke-color: rgba(255, 255, 255, 0.8);
 
+		}
 		#header input[type="submit"],
 		#header input[type="reset"],
 		#header input[type="button"],
