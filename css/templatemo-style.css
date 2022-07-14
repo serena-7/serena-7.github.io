@@ -172,8 +172,8 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        background: url('../images/home-bg.jpg');
-        background-size: cover;
+        background: url('../images/main-image.jpg');
+        background-size:cover;
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
@@ -272,7 +272,7 @@ h1,h2,h3,h4,h5
     }
 #about .text-top
     {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 #about span
     {
@@ -286,6 +286,20 @@ h1,h2,h3,h4,h5
         font-weight: bold;
         float: right;
     }
+
+#about .skill .skill-icon
+    {
+        font-size: 90px;
+        height:90px;
+        width:90px;
+        margin:15px;
+    }
+/* #about .profile-image
+    {
+        background-image: url('../images/bw-profile.jpg');
+        background-size: cover;
+        height:100%;
+    } */
 /* end about */
 
 /* start portfolio */
