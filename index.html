@@ -20,7 +20,7 @@
 		<link rel="stylesheet" href="css/animate.min.css">
 		<!-- bootstrap -->
 		<link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- devicons -->
+    <!-- devicon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 		<!-- font-awesome -->
 		<!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
@@ -166,48 +166,39 @@
 				<div class="col-md-12">
 					<h2 class="wow bounce">PORTFOLIO</h2>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+				<div class="col-md-6 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/portfolio-img1.jpg" class="img-responsive" alt="portfolio img">
+						<img src="images/python-project-image.png" class="img-responsive" alt="portfolio img">
 							<div class="portfolio-overlay">
-								<h4>Web Design</h4>
-								<h5>Author: Cindy</h5>
+								<h3>Employee Portal and Time Tracking</h3>
+								<h5>Python | Flask | PostgreSQL</h5>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Links <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="https://github.com/serena-7/python-capstone-employee-portal" target="_blank" rel="noreferrer noopener">GitHub Repo</a></li>
+                    <li><a href="https://youtu.be/cI5LukLZRrM" target="_blank" rel="noreferrer noopener">Demo Video</a></li>
+                    <li><a href="https://employee-portal-python-capston.herokuapp.com/" target="_blank" rel="noreferrer noopener">Hosted Site</a></li>
+                  </ul>
+                </div>
+                <p>This fullstack Flask application is a company site with an employee portal to manage time entries and employee information. This was my capstone for Devmountain and will be turned into a functioning website for my father's business.</p>
 							</div>
 					</div>
 				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
+				<div class="col-md-6 col-xs-12 wow fadeIn" data-wow-delay="0.6s">
 					<div class="portfolio-thumb">
-						<img src="images/portfolio-img2.jpg" class="img-responsive" alt="portfolio img">
+						<img src="images/foundation-project-image.png" class="img-responsive" alt="portfolio img">
 							<div class="portfolio-overlay">
-								<h4>Web App</h4>
-								<h5>Author: Linda</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img3.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Mobile App</h4>
-								<h5>Author: Kate</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img4.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Old Artwork</h4>
-								<h5>Author: Catherine</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-6 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/portfolio-img5.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>New Animation</h4>
-								<h5>Author: Kathy</h5>
+								<h3>Simple Time Tracking</h3>
+								<h5>Javascript | HTML/CSS | PostgreSQL</h5>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Links <span class="caret"></span></button>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="https://github.com/serena-7/employee-timecard-portal-foundations-capstone" target="_blank" rel="noreferrer noopener">GitHub Repo</a></li>
+                    <li><a href="https://youtu.be/puGGYQjbdZU" target="_blank" rel="noreferrer noopener">Demo Video</a></li>
+                    <li><a href="https://employee-timecard-f21-capstone.herokuapp.com/" target="_blank" rel="noreferrer noopener">Hosted Site</a></li>
+                  </ul>
+                </div>
+                <p>This full stack Javascript app allows employees to keep track of timecards using a CRUD server with PostgreSQL</p>
 							</div>
 					</div>
 				</div>
@@ -223,17 +214,18 @@
 					<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
 						<address>
 							<p class="contact-title">CONTACT ME</p>
-							<p><i class="fa fa-phone"></i> 090-080-0760</p>
-							<p><i class="fa fa-envelope-o"></i> info@company.com</p>
-							<p><i class="fa fa-map-marker"></i> 120 Old Walking Street, GL 16060</p>
+							<p><i class="fa fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/serena-sorensen/">serena-sorensen</a></p>
+              <p><i class="fa fa-brands fa-github"></i> <a href="https://github.com/serena-7">serena-7</a></p>
+							<p><i class="fa fa-envelope-o"></i> serena.software.engineer@gmail.com</p>
+							<p><i class="fa fa-map-marker"></i> Springville, UT 84663</p>
 						</address>
 					</div>
 					<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-						<form role="form" method="post" action="#">
+						<form role="form" id="contact-form">
 							<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
 							<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
 							<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-							<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
+							<input name="send" type="button" class="form-control" id="send" value="SEND ME">
 						</form>
 					</div>
 					<div class="col-md-1 col-sm-1"></div>
@@ -251,11 +243,6 @@
                         
                         . Designed by <a rel="nofollow noopener" href="https://templatemo.com">templatemo</a></p>
 						<hr>
-						<ul class="social-icon">
-							<li><a href="#" class="fa fa-facebook"></a></li>
-							<li><a href="#" class="fa fa-twitter"></a></li>
-							<li><a href="#" class="fa fa-instagram"></a></li>
-						</ul>
 					</div>
 				</div>
 			</div>
