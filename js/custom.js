@@ -25,7 +25,7 @@ $("#send").click(function() {
 	if (name == '' || email == '' || message == '') {
 		alert('Please fill in all fields!')
 	} else {
-		print('Got Here')
+		console.log('Got Here')
 		$.post("contact_form.php", {
 			name1: name,
 			email1: email,
