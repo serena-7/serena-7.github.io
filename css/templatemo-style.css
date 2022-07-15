@@ -54,6 +54,12 @@ h1,h2,h3,h4,h5
     }
 /* end all heading */
 
+p 
+{
+    color:#ffffff;
+
+}
+
 /* start all section */
 #work, #about, #portfolio, #contact
     {
@@ -195,11 +201,12 @@ h1,h2,h3,h4,h5
 #home .btn
     {
         background: transparent;
+        opacity: .8;
         border: 2px solid #ffffff;
         color: #ffffff;
         font-size: 16px;
         font-weight: bold;
-        width: 180px;
+        width: 140px;
         height: 60px;
         margin-top: 40px;
         padding-top: 18px;
